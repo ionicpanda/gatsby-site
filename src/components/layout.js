@@ -13,11 +13,10 @@ export default ({ children }) => (
     <header style={{ marginBottom: `1.5rem` }}>
       <ul style={{ listStyle: `none`, float: `right`}}>
         <ListLink to="/">Home</ListLink>
-        <ListLink to="/about/">About</ListLink>
         <ListLink to="/projects/">Projects</ListLink>
-        <ListLink to="/resume/">Resume</ListLink>
+        <ListLink to="/resume.pdf">Resume</ListLink>
       </ul>
-
+    <h1>Justin Nitz</h1>
     </header>
     {children}
   </div>
